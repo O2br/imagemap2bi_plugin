@@ -2,11 +2,10 @@
 /***************************************************************************
 ImageMapPlugin
 
-This plugin generates a HTML-image map file+img from the active point 
-or polygon layer
+This beta plugin generates a HTML-image map compatible with MicroStrategy
 
-copyright            : (C) 2011 by Richard Duivenvoorde
-email                : richard@duif.net
+copyright            : forked the famous 'Html Image Map Plugin' from Richard Duivenvoorde
+email                : o2br.com@gmail.com
  ***************************************************************************/
 
 /***************************************************************************
@@ -22,10 +21,10 @@ email                : richard@duif.net
 from imagemapplugin import ImageMapPlugin
 
 def name():
-    return "Html Image Map Plugin"
+    return "Html Image Map To Business Inteligence"
 
 def description():
-    return "This plugin generates a HTML-image map file+img from the active point or polygon layer"
+    return "This beta plugin generates a HTML-image map compatible with MicroStrategy"
 
 def qgisMinimumVersion():
     return "2.0"
@@ -34,10 +33,10 @@ def version():
     return "2.0.1"
 
 def author():
-    return "Richard Duivenvoorde"
+    return "Andre da Silva Mesquita"
 
 def email():
-    return "richard@duif.net"
+    return "o2br.com@gmail.com"
 
 def category():
   return "Web"
